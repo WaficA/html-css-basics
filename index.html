@@ -1,126 +1,36 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Title</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Learning HTML & CSS</title>
   </head>
   <body>
-    <main>
-      <h1><header>Header Element</header></h1>
-      <section>
-        <h2>Header 2</h2>
-        <!-- TODO: Add link to cat photos -->
-        <p>
-          Add an anchor _blank as target to open link in new window
-          <a target="_blank" href="https://freecatphotoapp.com"
-            >clickable letters/words that refers to a link</a
-          >.
-        </p>
-        <a href="https://freecatphotoapp.com"
-          ><img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-            alt="A cute orange cat lying on its back."
-        /></a>
-      </section>
-      <section>
-        <h2>header 2</h2>
-        <h3>Create an un ordered list</h3>
-        <ul>
-          <li>un-ordered list 1</li>
-          <li>un-ordered list 2</li>
-          <li>un-ordered list 3</li>
-        </ul>
-        <figure>
-          <img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
-            alt="A slice of lasagna on a plate."
-          />
-          <figcaption>
-            comment under img with figcaption
-            <em>special characters with em element</em> .......
-          </figcaption>
-        </figure>
-        <h3>Create an ordered list</h3>
-        <ol>
-          <li>ordered list 1</li>
-          <li>ordered list 2</li>
-          <li>ordered list 3</li>
-        </ol>
-        <figure>
-          <img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
-            alt="Five cats looking around a field."
-          />
-          <figcaption>
-            under image
-            <strong>used strong element for bold charcters</strong> .......
-          </figcaption>
-        </figure>
-      </section>
-      <section>
-        <h2>Fieldset Element</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
-            <legend>
-              this is the legend element (letters appear at top of fieldset)
-            </legend>
-            <label
-              ><input
-                id="indoor"
-                type="radio"
-                name="indoor-outdoor"
-                value="indoor"
-                checked
-              />
-              Indoor</label
-            >
-            <label
-              ><input
-                id="outdoor"
-                type="radio"
-                name="indoor-outdoor"
-                value="outdoor"
-              />
-              Outdoor</label
-            >
-          </fieldset>
-          <fieldset>
-            <legend>another legend element</legend>
-            <input
-              id="loving"
-              type="checkbox"
-              name="personality"
-              value="loving"
-              checked
-            />
-            <label for="loving">Loving</label>
-            <input id="lazy" type="checkbox" name="personality" value="lazy" />
-            <label for="lazy">Lazy</label>
-            <input
-              id="energetic"
-              type="checkbox"
-              name="personality"
-              value="energetic"
-            />
-            <label for="energetic">Energetic</label>
-          </fieldset>
-          <input
-            type="text"
-            name="catphotourl"
-            placeholder="This is a placeholder value"
-            required
-          />
-          <button type="submit">button element</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>
-        No Copyright -
-        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
-      </p>
-    </footer>
+    <h1>JavaScript is fun, but so is HTML & CSS!</h1>
+    <p class="first">
+      You can learn JavaScript without HTML and CSS, but for DOM manipulation
+      it's useful to have some basic ideas of HTML & CSS. You can learn more
+      about it
+      <a href="https://www.udemy.com/user/jonasschmedtmann/">on Udemy</a>.
+    </p>
+
+    <h2>Another heading</h2>
+    <p class="second">Just another paragraph</p>
+
+    <img
+      id="course-image"
+      src="https://img-a.udemycdn.com/course/480x270/437398_46c3_9.jpg"
+    />
+
+    <form id="your-name">
+      <h2>Your name here</h2>
+      <p class="first">Please fill in this form :)</p>
+
+      <input type="text" placeholder="Your name" />
+      <button>OK!</button>
+    </form>
   </body>
 </html>
